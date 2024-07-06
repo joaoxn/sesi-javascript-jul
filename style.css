@@ -1,0 +1,30 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+#buttons-js * {
+    margin: 1rem;
+}
+
+button {
+    padding: 0.5rem;
+    background-color: azure;
+    border-radius: 1rem;
+    font-size: large;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+button:hover {
+    transform: scale(1.1);
+    transition-duration: 0.5s;
+}
+
+.center {
+    align-self: center;
+}
